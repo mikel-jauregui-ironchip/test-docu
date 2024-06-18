@@ -1,9 +1,8 @@
 <p align="center">
 <img alt="Logon showcase gif" src="./assets/icon.png" width="100"/>
-<p align="center" style='font-weight: bold; font-size:40px; margin-top:-30px; font-family:sans-serif;'>
-    Ironchip
 </p>
-</p>
+<h1 align="center">Ironchip</h1>
+
 <p align="center" back>
 <a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
     <img alt="Logon showcase gif" src="https://img.shields.io/badge/latest-1.7.0-green.svg"/>
