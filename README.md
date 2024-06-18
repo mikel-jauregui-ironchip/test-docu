@@ -52,7 +52,7 @@ MFA adds an extra layer of protection, requiring multiple forms of authenticatio
 **Improved Compliance:**
 MFA helps organizations meet compliance requirements and security standards by implementing robust authentication methods.
 
-### How to setup
+### Installing process
 
 To install the Ironchip Authenticator into your device:
  - Run the downloaded installer. This will open the installer stepper:
@@ -85,6 +85,12 @@ To install the Ironchip Authenticator into your device:
 
  - Once the installation process is finished. All you need to do is for an administrator to [give access](https://knowledge.ironchip.com/en/windows-logon) from the [Dashboard](https://app.ironchip.com/).
  > If the **Offline** feature is enabled and the user want to use it, they need to [follow the steps](https://knowledge.ironchip.com/en/user-manual-indentity#offline) to generate the `Time-based one-time password`.
+
+### Disable default credential provider
+
+In order to force user to use **Ironchip Credential Provider**, the default **Windows Credential Provider** must be disabled.
+
+ - Use the key shortcut `⊞ Win` + `R` and paste `regedit`
 
 ## Desktop Application
 
