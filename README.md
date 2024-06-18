@@ -1,9 +1,17 @@
-[![Ironchip logo](./assets/logo.webp)](https://www.ironchip.com/)
-
----
-
-[![version](https://img.shields.io/badge/latest-1.7.0-green.svg)](https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest)
-[![Platform](https://img.shields.io/badge/Windows-0078D6?logo=windows)](https://www.microsoft.com/software-download/)
+<p align="center">
+<img alt="Logon showcase gif" src="./assets/icon.png" width="100"/>
+<p align="center" style='font-weight: bold; font-size:40px; margin-top:-30px; font-family:sans-serif;'>
+    Ironchip
+</p>
+</p>
+<p align="center" back>
+<a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
+    <img alt="Logon showcase gif" src="https://img.shields.io/badge/latest-1.7.0-green.svg"/>
+</a>
+<a href="https://www.microsoft.com/software-download/">
+    <img alt="Logon showcase gif" src="https://img.shields.io/badge/Windows-0078D6?logo=windows"/>
+</a>
+</p>
 
 ## IDENTITY PROTECTION
 
@@ -50,7 +58,7 @@ MFA helps organizations meet compliance requirements and security standards by i
 To install the Ironchip Authenticator into your device:
  - Run the downloaded installer. This will open the installer stepper:
    <p align="center">
-     <img alt="Installer first page" src="https://github.com/mikel-jauregui-ironchip/test-docu/assets/113977341/6e0a02b7-e5af-4b8c-9740-9122da2f7007" width="350"/>
+     <img alt="Installer first page" src="./assets/first-view.png" width="350"/>
    </p>
  - Follow the installation steps until you arrive to the **Component Selection View**. To have the ironchip windows logon installed, the **Ironchip Windows Logon** must be `enabled`.
 
@@ -59,7 +67,7 @@ To install the Ironchip Authenticator into your device:
    > In case you want to have available the possibility to cache the password for better user experience, make sure to `enable` **Remember Credentials** feature.
 
    <p align="center">
-     <img alt="Installer first page" src="https://github.com/mikel-jauregui-ironchip/test-docu/assets/113977341/120c7005-e60a-42c6-9144-f372c1f6d489" width="350"/>
+     <img alt="Installer components view" src="./assets/components-view-logon.png" width="350"/>
    </p>
 
  - Continue to the following page, where you can change the target host and the desired proxy selection:
@@ -67,13 +75,13 @@ To install the Ironchip Authenticator into your device:
    > The host for **Production** environment: `https://api.ironchip.com`.\
    The host for **Testing** environment: `https://testing.api.ironchip.com`.
    <p align="center">
-     <img alt="Installer first page" src="https://github.com/mikel-jauregui-ironchip/test-docu/assets/113977341/bbe6a5ab-8446-4e8d-b290-f8bf75e3a2ab" width="350"/>
+     <img alt="Installer host view" src="./assets/host-view.png" width="350"/>
    </p>
 
  - Continue to the following page, where you must insert the target **ApiKey** :
-> The **ApiKey** can be copied or download when [generating the application](https://knowledge.ironchip.com/en/create-mfa-application-on-ironchip) from the [Dashboard](https://app.ironchip.com/).
+    > The **ApiKey** can be copied or download when [generating the application](https://knowledge.ironchip.com/en/create-mfa-application-on-ironchip) from the [Dashboard](https://app.ironchip.com/).
    <p align="center">
-     <img alt="Installer first page" src="https://github.com/mikel-jauregui-ironchip/test-docu/assets/113977341/30f35ab9-ee7f-47ed-af05-60e2efea1a6d" width="350"/>
+     <img alt="Installer apiKey view" src="./assets/apikey-view.png" width="350"/>
    </p>
 
  - Once the installation process is finished. All you need to do is for an administrator to [give access](https://knowledge.ironchip.com/en/windows-logon) from the [Dashboard](https://app.ironchip.com/).
@@ -94,14 +102,14 @@ Communication for authentication is done over a double-encrypted channel which i
 To install the Ironchip Authenticator into your device:
  - Run the downloaded installer. This will open the installer stepper:
    <p align="center">
-     <img alt="Installer first page" src="https://github.com/mikel-jauregui-ironchip/test-docu/assets/113977341/6e0a02b7-e5af-4b8c-9740-9122da2f7007" width="350"/>
+     <img alt="Installer first view" src="./assets/first-view.png" width="350"/>
    </p>
  - Follow the installation steps until you arrive to the **Component Selection View**. To have the desktop application installed, the **Ironchip Windows Authenticator** must be `enabled`.
 
    > I case you want to have the **USB support** feature `enabled`, make sure to **enable USB support**.
 
    <p align="center">
-     <img alt="Installer first page" src="https://github.com/mikel-jauregui-ironchip/test-docu/assets/113977341/dbf0757e-c8a2-45c8-a2cf-6f94a83ae305" width="350"/>
+     <img alt="Installer components view" src="./assets/components-view-auth.png" width="350"/>
    </p>
 
  - Once the installation process is finished. All you need to do is [enroll the device](https://knowledge.ironchip.com/en/aplicaci%C3%B3n-de-escritorio#registro), and you are good to go.
