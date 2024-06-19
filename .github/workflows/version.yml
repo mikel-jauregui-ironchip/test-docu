@@ -40,11 +40,11 @@ jobs:
         sed -i "s/{{ version }}/$version/g" README.md
 
     - name: Commit changes
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add README.md
         git commit -m "Update README with version ${{ steps.get_version.outputs.version }}"
         git push https://github.com/${{ github.repository }}.git HEAD:main
+        git push https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+
