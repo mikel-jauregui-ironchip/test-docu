@@ -51,5 +51,5 @@ jobs:
         git add README.md
         git commit -m "Update README with version ${{ steps.get_version.outputs.version }}"
         echo "${{ steps.get_version.outputs.version }}"
-        echo "${ GH_NAME }"
+        echo "${{ github.repository }}"
         git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
