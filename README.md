@@ -96,33 +96,25 @@ In order to force user to use **Ironchip Credential Provider**, the default **Wi
 - Now get the **GUID** of the Windows Credential Provider. Normally it's `{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}` but you can check it on the registry under the path `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}`
 
 <p align="center">
- <a href="https://www.youtube.com/watch?v=G-rr6BzcQZ0"> 
   <img alt="Logon showcase gif" src="./assets/registry-provider.png" width="250"/>
- </a>
 </p>
 
 - Use the key shortcut `⊞ Win` + `R` and paste `gpedit.msc`
 
 <p align="center">
- <a href="https://www.youtube.com/watch?v=G-rr6BzcQZ0"> 
   <img alt="Logon showcase gif" src="./assets/run-view.png" width="250"/>
- </a>
 </p>
 
 - Then inside the **Local Group Policy Editor** go to `Local Computer Policy > Computer Configuration > Administrative Templates > System > Logon > Exclude Credential Providers`
 
 <p align="center">
- <a href="https://www.youtube.com/watch?v=G-rr6BzcQZ0"> 
   <img alt="Logon showcase gif" src="./assets/local-policy.png" width="250"/>
- </a>
 </p>
 
 - Enable the exclusion rule and paste the GUID of the Windows Password Credential Provider into the field. Then press apply.
 
 <p align="center">
- <a href="https://www.youtube.com/watch?v=G-rr6BzcQZ0"> 
   <img alt="Logon showcase gif" src="./assets/apply-rule.png" width="250"/>
- </a>
 </p>
 
 ### Autologon Whitelist
