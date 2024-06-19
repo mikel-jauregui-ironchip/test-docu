@@ -32,7 +32,7 @@ jobs:
     - name: Update README
       run: |
         version=$(echo ${{ steps.get_version.outputs.version }})
-        cp /assets/README_template.md /README.md
+        cp assets/README_template.md README.md
         sed -i "s/{{ version }}/$version/g" README.md
 
     - name: Commit changes
