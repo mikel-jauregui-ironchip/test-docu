@@ -44,12 +44,12 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         GH_EMAIL: ${{ secrets.GH_EMAIL }}
         GH_NAME: ${{ secrets.GH_USER }}
+        
       run: |
         git config --global user.name "${GH_NAME}"
         git config --global user.email "${GH_EMAIL}"
         git add README.md
         git commit -m "Update README with version ${{ steps.get_version.outputs.version }}"
         echo "${{ steps.get_version.outputs.version }}"
-        echo "${{ GH_NAME }}"
-        echo  "${GH_EMAIL}"
+        echo "${ GH_NAME }"
         git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
