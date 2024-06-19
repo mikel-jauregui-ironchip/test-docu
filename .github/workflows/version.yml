@@ -42,11 +42,12 @@ jobs:
     - name: Commit changes
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        PEPE: ${{ secrets.PEPE }}
+        EMAIL: ${{ secrets.GH_EMAIL }}
+        NAME: ${{ secrets.GH_USER }}
       run: |
         echo "Pepe: ${PEPE}"
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
+        git config --global user.name "${GH_USER}"
+        git config --global user.email "${GH_EMAIL}"
         git add README.md
         git commit -m "Update README with version ${{ steps.get_version.outputs.version }}"
         git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
