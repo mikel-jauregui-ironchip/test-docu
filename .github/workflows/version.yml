@@ -29,16 +29,22 @@ jobs:
       id: get_version
       run: echo "::set-output name=version::$(python get_version.py)"
 
+    - name: Print directory contents for debugging
+      run: ls -R
+
     - name: Update README
       run: |
         version=$(echo ${{ steps.get_version.outputs.version }})
+        echo "Version: $version"
         cp assets/README_template.md README.md
         sed -i "s/{{ version }}/$version/g" README.md
 
     - name: Commit changes
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add README.md
         git commit -m "Update README with version ${{ steps.get_version.outputs.version }}"
-        git push
+        git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
