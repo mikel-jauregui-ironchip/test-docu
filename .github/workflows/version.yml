@@ -42,7 +42,9 @@ jobs:
     - name: Commit changes
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        PEPE: ${{ secrets.PEPE }}
       run: |
+        echo "Pepe: $PEPE"
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add README.md
