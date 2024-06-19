@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logon showcase gif" src="./assets/icon.png" width="100"/>
+  <img alt="Logon showcase gif" src="/assets/icon.png" width="100"/>
 </p>
 <h1 align="center">Ironchip</h1>
 
