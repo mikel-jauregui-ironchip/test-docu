@@ -4,11 +4,17 @@
 <h1 align="center">Ironchip</h1>
 
 <p align="center" back>
-  <a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
-    <img alt="Logon showcase gif" src="https://img.shields.io/badge/latest-1.7.0-green.svg"/>
+    <a href="https://www.microsoft.com/software-download/">
+    <img alt="Latest release" src="https://img.shields.io/badge/Windows-0078D6?logo=windows"/>
   </a>
-  <a href="https://www.microsoft.com/software-download/">
-    <img alt="Logon showcase gif" src="https://img.shields.io/badge/Windows-0078D6?logo=windows"/>
+  <a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/mikel-jauregui-ironchip/test-docu"/>
+  </a>
+  <a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
+    <img alt="Release date" src="https://img.shields.io/github/release-date/mikel.jauregui/test-docu"/>
+  </a>
+  <a href="#">
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/test-docu/mikel-jauregui-ironchip/latest/total"/>
   </a>
 </p>
 
