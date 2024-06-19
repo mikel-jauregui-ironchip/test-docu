@@ -7,14 +7,17 @@
     <a href="https://www.microsoft.com/software-download/">
     <img alt="Latest release" src="https://img.shields.io/badge/Windows-0078D6?logo=windows"/>
   </a>
+  
   <a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/mikel-jauregui-ironchip/test-docu"/>
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/mikel-jauregui-ironchip/test-docu?color=green"/>
   </a>
+  
   <a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
-    <img alt="Release date" src="https://img.shields.io/github/release-date/mikel.jauregui/test-docu"/>
+    <img alt="Release date" src="https://img.shields.io/github/release-date/mikel-jauregui-ironchip/test-docu?color=orange"/>
   </a>
+  
   <a href="#">
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/test-docu/mikel-jauregui-ironchip/latest/total"/>
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/mikel-jauregui-ironchip/test-docu/total?color=white"/>
   </a>
 </p>
 
