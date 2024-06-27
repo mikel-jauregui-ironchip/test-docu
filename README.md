@@ -15,10 +15,6 @@
   <a href="https://github.com/mikel-jauregui-ironchip/test-docu/releases/latest">
     <img alt="Release date" src="https://img.shields.io/github/release-date/mikel-jauregui-ironchip/test-docu?color=orange"/>
   </a>
-  
-  <a href="#">
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/mikel-jauregui-ironchip/test-docu/total?color=white"/>
-  </a>
 </p>
 
 ## IDENTITY PROTECTION
